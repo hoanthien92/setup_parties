@@ -1,0 +1,6 @@
+my name
+Fourth of July,Tina Lucci,07/04/08,47 Elm Avenue,40,400.0,true,false,0,0,3,ny, tom, my
+Graduation,Joe Smith,05/12/08,Sherlock Park,20,300.0,true,false,0,0,3,ny, tom, my
+Wedding,Sam Snead,02/12/08,Country Club,100,50.0,false,false,0,0,3,ny, tom, my
+April Fools,Rose Kennedy,04/01/08,Beach,8,1999.99,true,false,1,ny,0,2,tom, my
+Super Bowl,Ann Jones,02/03/08,123 Main Street,10,20.0,false,false,2,ny, tom,1,my,0,

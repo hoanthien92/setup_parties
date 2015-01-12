@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=party1\ party2
+comment0.target=int\ compare(Party,\ Party)
+comment0.text=\r\n\ Compares\ two\ Party\ objects\ by\ their\ name\r\n\ \r\n\ Preconditions\:\ party1\ and\ party\ 2\ cannot\ be\ null\r\n\ Postconditions\:\ Returns\ an\ integer\ to\ represent\ the\ difference\ of\ them.\r\n
+numComments=1

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=party1\ party2
+comment0.target=int\ compare(Party,\ Party)
+comment0.text=\r\n\ Compares\ two\ Party\ Objects\ by\ their\ dates.\r\n\ \r\n\ Preconditions\:\ party1\ and\ party2\ can't\ be\ null.\r\n\ Postconditions\:\ Returns\ an\ integer\ to\ tell\ how\ different\ they\ are.\r\n
+numComments=1

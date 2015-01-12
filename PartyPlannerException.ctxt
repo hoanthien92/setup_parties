@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PartyPlannerException()
+comment0.text=\r\n\ Create\ a\ new\ PartyPlannerException\ with\ a\ default\ message\r\n
+comment1.params=message
+comment1.target=PartyPlannerException(java.lang.String)
+comment1.text=\r\n\ Create\ a\ new\ PartyPlannerException\ with\ message\ is\ the\ input\r\n\ parameter\r\n
+numComments=2

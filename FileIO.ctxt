@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=fileName\ operation
+comment0.target=FileIO(java.lang.String,\ int)
+comment0.text=\r\n\ \ General\ purpose\ constructor\ that\ can\ be\ used\ to\ specify\ a\ file\ and\ whether\ it\ is\ for\ reading\ or\ for\ writing.\ <br>\r\n\ \ <b>Preconditions</b>\:\ \ The\ file\ desired\ (not\ null)\ and\ whether\ it\ is\ for\ reading\ or\ writing\ must\ be\ specified\ (only\ options\ possible).<br>\r\n\ \ <b>Postconditions</b>\:\ The\ specified\ file\ is\ prepared\ for\ the\ desired\ operation.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ neither\ reading\ nor\ writing\ is\ specified\ or\ a\ problem\ occurs\ in\ preparing\ the\ file\ connections.<br>\r\n
+comment1.params=fileName\ delimiter
+comment1.target=FileIO(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ \ Constructor\ used\ to\ read\ in\ tokens\ from\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ \ The\ file\ desired\ (not\ null)\ and\ the\ delimited\ desired\ for\ extracting\ tokens\ must\ be\ specified.<br>\r\n\ \ <b>Postconditions</b>\:\ The\ specified\ file\ is\ prepared\ for\ reading\ and\ token\ extraction.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ a\ problem\ occurs\ in\ preparing\ the\ file\ connections.<br>\r\n
+comment2.params=
+comment2.target=java.util.Iterator\ getTokens()
+comment2.text=\r\n\ \ Returns\ the\ tokens\ from\ a\ single\ line\ of\ text\ read\ from\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ The\ file\ must\ have\ been\ opened\ for\ reading\ tokens.<br>\r\n\ \ <b>Postconditions</b>\:\ Returns\ the\ tokens\ from\ a\ single\ line\ of\ text\ in\ the\ file\ in\ an\ Iterator.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ the\ file\ was\ not\ opened\ for\ reading\ or\ if\ a\ problem\ occurs\ when\ reading\ or\ if\ the\ end\ of\ the\ file\ has\ been\ reached.<br>\r\n
+comment3.params=
+comment3.target=boolean\ EOF()
+comment3.text=\r\n\ \ Indicates\ whether\ the\ end\ of\ the\ file\ has\ been\ reached.\ <br>\r\n\ \ <b>Preconditions</b>\:\ None.<br>\r\n\ \ <b>Postconditions</b>\:\ Returns\ true\ if\ the\ end\ of\ the\ file\ has\ been\ reached\ or\ false\ otherwise.<br>\r\n
+comment4.params=
+comment4.target=java.lang.String\ readLine()
+comment4.text=\r\n\ \ Reads\ in\ a\ line\ of\ text\ from\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ The\ file\ must\ have\ been\ opened\ for\ reading.<br>\r\n\ \ <b>Postconditions</b>\:\ Returns\ a\ string\ with\ the\ next\ line\ of\ text\ from\ the\ file\ or\ null\ if\ the\ end\ of\ the\ file\ has\ been\ reached.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ the\ file\ was\ not\ opened\ for\ reading\ or\ if\ a\ problem\ occurs\ when\ reading\ from\ the\ file.<br>\r\n
+comment5.params=line
+comment5.target=void\ writeLine(java.lang.String)
+comment5.text=\r\n\ \ Writes\ a\ line\ of\ text\ to\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ The\ file\ must\ have\ been\ opened\ for\ writing,\ and\ the\ line\ of\ text\ to\ be\ written\ supplied\ (not\ null).<br>\r\n\ \ <b>Postconditions</b>\:\ The\ line\ of\ text\ is\ written\ to\ the\ file.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ the\ file\ was\ not\ opened\ for\ writing\ or\ a\ problem\ occurs\ during\ writing\ to\ the\ file.<br>\r\n
+comment6.params=
+comment6.target=void\ close()
+comment6.text=\r\n\ \ Closes\ the\ connection\ to\ a\ file.\ <br>\r\n\ \ <b>Preconditions</b>\:\ \ None.<br>\r\n\ \ <b>Postconditions</b>\:\ The\ connection\ to\ the\ file\ is\ closed.<br>\r\n\ \ <b>Throws</b>\:\ FileIOException\ if\ a\ problem\ occurs\ when\ closing\ the\ file.<br>\r\n
+numComments=7
